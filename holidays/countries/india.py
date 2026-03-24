@@ -39,6 +39,8 @@ class India(
         * <https://web.archive.org/web/20231008063930/https://vahan.parivahan.gov.in/vahan4dashboard/>
         * Gujarat:
             * <https://web.archive.org/web/20260122052040/https://images-gujarati.indianexpress.com/2025/11/gujarat-government-Year-2026-holiday-list.pdf>
+        * Mizoram:
+            * <https://web.archive.org/web/20250114025233/https://dipr.mizoram.gov.in/page/government-holiday-2024>_populate_subdiv_mz_public_holidays>
         * Tamil Nadu:
             * [Tamil Monthly Calendar](https://web.archive.org/web/20231228103352/https://www.tamildailycalendar.com/tamil_monthly_calendar.php)
             * [Tamil Calendar](https://web.archive.org/web/20250429125140/https://www.prokerala.com/general/calendar/tamilcalendar.php)
@@ -416,8 +418,16 @@ class India(
 
     # Mizoram.
     def _populate_subdiv_mz_public_holidays(self):
+        # Missionary Day.
+        self._add_holiday_jan_11(tr("Missionary Day"))
         # Mizoram State Day.
         self._add_holiday_feb_20(tr("Mizoram State Day"))
+        # YMA Day.
+        self._add_holiday_jun_15(tr("YMA Day"))
+        # Remna Ni.
+        self._add_holiday_jun_30(tr("Remna Ni"))
+        # MHIP Day.
+        self._add_holiday_jul_6(tr("MHIP Day"))
 
     # Nagaland.
     def _populate_subdiv_nl_public_holidays(self):

@@ -117,7 +117,13 @@ class TestIndia(CommonCountryTests, TestCase):
                 "2018-04-14",
                 "2018-11-01",
             ),
-            "MZ": ("2018-02-20",),
+            "MZ": (
+                "2018-01-11",
+                "2018-02-20",
+                "2018-06-15",
+                "2018-06-30",
+                "2018-07-06",
+            ),
             "NL": ("2018-12-01",),
             "OD": (
                 "2018-04-01",
@@ -525,6 +531,7 @@ class TestIndia(CommonCountryTests, TestCase):
 
     def test_l10n_default(self):
         self.assertLocalizedHolidays(
+            ("2018-01-11", "Missionary Day"),
             ("2018-01-13", "Lohri"),
             ("2018-01-14", "Magh Bihu; Makar Sankranti; Pongal; Uttarayan"),
             ("2018-01-15", "Thiruvalluvar Day / Mattu Pongal"),
@@ -551,7 +558,10 @@ class TestIndia(CommonCountryTests, TestCase):
             ("2018-05-09", "Rabindra Jayanti"),
             ("2018-05-16", "Sikkim State Day"),
             ("2018-06-02", "Telangana Formation Day"),
+            ("2018-06-15", "YMA Day"),
             ("2018-06-16", "Id-ul-Fitr; Maharana Pratap Jayanti"),
+            ("2018-06-30", "Remna Ni"),
+            ("2018-07-06", "MHIP Day"),
             ("2018-08-15", "Independence Day"),
             ("2018-08-16", "Puducherry De Jure Transfer Day"),
             ("2018-08-22", "Bakrid"),
@@ -592,6 +602,7 @@ class TestIndia(CommonCountryTests, TestCase):
     def test_l10n_gu(self):
         self.assertLocalizedHolidays(
             "gu",
+            ("2018-01-11", "Missionary Day"),
             ("2018-01-13", "લોહરી"),
             ("2018-01-14", "ઉત્તરાયણ; પોંગલ; મકરસંક્રાંતિ; માઘ બિહુ"),
             ("2018-01-15", "તિરુવલ્લુવર દિવસ / મટ્ટુ પોંગલ"),
@@ -615,7 +626,10 @@ class TestIndia(CommonCountryTests, TestCase):
             ("2018-05-09", "રવીન્દ્ર જયંતિ"),
             ("2018-05-16", "સિક્કિમ રાજ્ય દિવસ"),
             ("2018-06-02", "તેલંગાણા સ્થાપના દિવસ"),
+            ("2018-06-15", "YMA Day"),
             ("2018-06-16", "ઈદ-ઉલ-ફિત્ર; મહારાણા પ્રતાપ જયંતિ"),
+            ("2018-06-30", "Remna Ni"),
+            ("2018-07-06", "MHIP Day"),
             ("2018-08-15", "સ્વતંત્રતા દિવસ"),
             ("2018-08-16", "પુડુચેરી ડી જ્યુર ટ્રાન્સફર દિવસ"),
             ("2018-08-22", "બકરી ઈદ"),
@@ -654,6 +668,7 @@ class TestIndia(CommonCountryTests, TestCase):
     def test_l10n_hi(self):
         self.assertLocalizedHolidays(
             "hi",
+            ("2018-01-11", "Missionary Day"),
             ("2018-01-13", "लोहड़ी"),
             ("2018-01-14", "उत्तरायण; पोंगल; मकर संक्रांति; माघ बिहू"),
             ("2018-01-15", "तिरुवल्लुवर दिवस / मट्टू पोंगल"),
@@ -677,7 +692,10 @@ class TestIndia(CommonCountryTests, TestCase):
             ("2018-05-09", "रवींद्र जयंती"),
             ("2018-05-16", "सिक्किम राज्य दिवस"),
             ("2018-06-02", "तेलंगाना स्थापना दिवस"),
+            ("2018-06-15", "YMA Day"),
             ("2018-06-16", "ईद-उल-फितर; महाराणा प्रताप जयंती"),
+            ("2018-06-30", "Remna Ni"),
+            ("2018-07-06", "MHIP Day"),
             ("2018-08-15", "स्वतंत्रता दिवस"),
             ("2018-08-16", "पुडुचेरी डी ज्यूर स्थानांतरण दिवस"),
             ("2018-08-22", "बकरीद"),
@@ -716,6 +734,7 @@ class TestIndia(CommonCountryTests, TestCase):
     def test_l10n_en_us(self):
         self.assertLocalizedHolidays(
             "en_US",
+            ("2018-01-11", "Missionary Day"),
             ("2018-01-13", "Lohri"),
             ("2018-01-14", "Magh Bihu; Makar Sankranti; Pongal; Uttarayan"),
             ("2018-01-15", "Thiruvalluvar Day / Mattu Pongal"),
@@ -742,7 +761,10 @@ class TestIndia(CommonCountryTests, TestCase):
             ("2018-05-09", "Rabindra Jayanti"),
             ("2018-05-16", "Sikkim State Day"),
             ("2018-06-02", "Telangana Formation Day"),
+            ("2018-06-15", "YMA Day"),
             ("2018-06-16", "Eid al-Fitr; Maharana Pratap Jayanti"),
+            ("2018-06-30", "Remna Ni"),
+            ("2018-07-06", "MHIP Day"),
             ("2018-08-15", "Independence Day"),
             ("2018-08-16", "Puducherry De Jure Transfer Day"),
             ("2018-08-22", "Eid al-Adha"),
@@ -783,6 +805,7 @@ class TestIndia(CommonCountryTests, TestCase):
     def test_l10n_ta(self):
         self.assertLocalizedHolidays(
             "ta",
+            ("2018-01-11", "Missionary Day"),
             ("2018-01-13", "லோஹ்ரி"),
             ("2018-01-14", "உத்தராயண்; பொங்கல்; மகர சங்கராந்தி; மாக் பிஹூ"),
             ("2018-01-15", "திருவள்ளுவர் நாள் / மாட்டுப் பொங்கல்"),
@@ -806,7 +829,10 @@ class TestIndia(CommonCountryTests, TestCase):
             ("2018-05-09", "ரபீந்திர ஜெயந்தி"),
             ("2018-05-16", "சிக்கிம் மாநில நாள்"),
             ("2018-06-02", "தெலுங்கானா உருவாக்க நாள்"),
+            ("2018-06-15", "YMA Day"),
             ("2018-06-16", "ஈத் உல்-பித்ர்; மகாராணா பிரதாப் ஜெயந்தி"),
+            ("2018-06-30", "Remna Ni"),
+            ("2018-07-06", "MHIP Day"),
             ("2018-08-15", "விடுதலை நாள்"),
             ("2018-08-16", "புதுச்சேரி சட்டபூர்வ பரிமாற்ற நாள்"),
             ("2018-08-22", "பகரீத்"),
@@ -848,6 +874,7 @@ class TestIndia(CommonCountryTests, TestCase):
     def test_l10n_te(self):
         self.assertLocalizedHolidays(
             "te",
+            ("2018-01-11", "Missionary Day"),
             ("2018-01-13", "లోహ్రీ"),
             ("2018-01-14", "ఉత్తరాయణం; పొంగల్; మకర సంక్రాంతి; మాఘ్ బిహు"),
             ("2018-01-15", "తిరువళ్ళువర్ దినోత్సవం / మట్టు పొంగల్"),
@@ -871,7 +898,10 @@ class TestIndia(CommonCountryTests, TestCase):
             ("2018-05-09", "రవీంద్ర జయంతి"),
             ("2018-05-16", "సిక్కిం రాష్ట్ర దినోత్సవం"),
             ("2018-06-02", "తెలంగాణ అవతరణ దినోత్సవం"),
+            ("2018-06-15", "YMA Day"),
             ("2018-06-16", "ఈద్-ఉల్-ఫితర్; మహారాణా ప్రతాప్ జయంతి"),
+            ("2018-06-30", "Remna Ni"),
+            ("2018-07-06", "MHIP Day"),
             ("2018-08-15", "స్వాతంత్ర్య దినోత్సవం"),
             ("2018-08-16", "పుదుచ్చేరి చట్టబద్ధ బదిలీ దినోత్సవం"),
             ("2018-08-22", "బక్రీద్"),

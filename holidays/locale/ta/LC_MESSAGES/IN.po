@@ -14,10 +14,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Holidays 0.92\n"
+"Project-Id-Version: Holidays 0.94\n"
 "Report-Msgid-Bugs-To: l10n@vacanza.dev\n"
 "POT-Creation-Date: 2026-02-09 12:14+0530\n"
-"PO-Revision-Date: 2026-02-09 12:14+0530\n"
+"PO-Revision-Date: 2026-03-24 12:42+0700\n"
 "Last-Translator: Nellai Abiram <nellaiabiram08@gmail.com>\n"
 "Language-Team: Holidays Localization Team\n"
 "Language: ta\n"
@@ -232,9 +232,25 @@ msgstr "மகாராஷ்டிரா நாள்"
 msgid "Madhya Pradesh Foundation Day"
 msgstr "மத்திய பிரதேச நாள்"
 
+#. Missionary Day.
+msgid "Missionary Day"
+msgstr ""
+
 #. Mizoram State Day.
 msgid "Mizoram State Day"
 msgstr "மிசோரம் மாநில நாள்"
+
+#. YMA Day.
+msgid "YMA Day"
+msgstr ""
+
+#. Remna Ni.
+msgid "Remna Ni"
+msgstr ""
+
+#. MHIP Day.
+msgid "MHIP Day"
+msgstr ""
 
 #. Nagaland State Inauguration Day.
 msgid "Nagaland State Inauguration Day"
